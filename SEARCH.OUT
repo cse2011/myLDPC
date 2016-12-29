@@ -1,0 +1,11 @@
+---- RAND_MAX Matches (10) ----
+Channel.h:{ return (double) rand() /(1.0+ (double) RAND_MAX); }
+Channel.h:  return (0.5+ (double) rand() ) / (1.0+ (double)RAND_MAX);
+Main.cpp:    a = (double) rand() / (double) RAND_MAX;
+Main.cpp:    b = (0.5+ (double) rand() ) / (1.0+ (double)RAND_MAX);
+Main.cpp:    a = (double) rand() / (double) RAND_MAX;
+Main.cpp:    b = (0.5+ (double) rand() ) / (1.0+ (double)RAND_MAX);
+Main.cpp:         v = ( rand() * 2 ) / RAND_MAX;
+Matrix.cpp:         choose = ( rand() * col_cnt ) / RAND_MAX;
+Matrix.cpp:                              do r = ( rand() *  col_cnt ) /RAND_MAX;
+Msg.cpp:     set( i,  ( rand()*2 / RAND_MAX) % 2 );
