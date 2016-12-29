@@ -1,2 +1,2 @@
 # myLDPC
-C implementation of Low Density Parity Code algorithm
+C++ implementation of Low Density Parity Code algorithm
